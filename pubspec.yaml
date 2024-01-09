@@ -1,0 +1,25 @@
+name: fridgecart
+description: app that collects cart data
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: ">=2.15.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_blue_plus: ^1.28.0
+  syncfusion_flutter_charts: ^23.1.44
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
